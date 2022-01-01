@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "i2c", "i2c\i2c.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MPU9250_", "MPU9250_\MPU9250_.cproj", "{58F21A6A-3BA7-4584-9273-E95657091B12}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MPU9250", "MPU9250\MPU9250\MPU9250.cproj", "{FE207506-5000-4B4E-B036-FBC215B1EF84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{58F21A6A-3BA7-4584-9273-E95657091B12}.Debug|AVR.ActiveCfg = Debug|AVR
+		{58F21A6A-3BA7-4584-9273-E95657091B12}.Debug|AVR.Build.0 = Debug|AVR
+		{58F21A6A-3BA7-4584-9273-E95657091B12}.Release|AVR.ActiveCfg = Release|AVR
+		{58F21A6A-3BA7-4584-9273-E95657091B12}.Release|AVR.Build.0 = Release|AVR
+		{FE207506-5000-4B4E-B036-FBC215B1EF84}.Debug|AVR.ActiveCfg = Debug|AVR
+		{FE207506-5000-4B4E-B036-FBC215B1EF84}.Debug|AVR.Build.0 = Debug|AVR
+		{FE207506-5000-4B4E-B036-FBC215B1EF84}.Release|AVR.ActiveCfg = Release|AVR
+		{FE207506-5000-4B4E-B036-FBC215B1EF84}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
